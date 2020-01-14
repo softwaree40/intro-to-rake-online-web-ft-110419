@@ -13,6 +13,7 @@ desc 'console'
     task :console do
   puts "Make sure you have a 'console' rake task"
 end
+<<<<<<< HEAD
 namespace :db do
 desc 'migrate changes to your database'
 task :migrate => :environment do
@@ -27,3 +28,6 @@ task :migrate => :environment do
   end
 
 end
+=======
+
+>>>>>>> b29cb64fda28d5a981839f5afd30ffa79520c7ce
